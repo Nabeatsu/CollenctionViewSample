@@ -31,7 +31,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("押された")
+        print("\(indexPath.row)が押された")
     }
     
 
